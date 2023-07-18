@@ -1,1 +1,118 @@
+html {
+    padding: 10rem;
+}
+
+body {
+  font-family: sans-serif;
+  max-width: 1000px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding-left: 35px;
+  border-left: 5px solid lightgray;
+}
+
+header {
+   padding-bottom: 3rem;
+}
+
+h1 {
+  color: tomato;
+  font-size: 60px;
+  font-weight:lighter;
+  margin: 0;
+}
+
+h2 {
+    padding-bottom: em;
+    font-weight: lighter;
+    margin: 0;
+    margin-bottom: 1.2em;
+}
+
+h3 {
+    font-weight: lighter;
+    font-size: 38px;
+    margin: 0;
+    margin-bottom: 0.2em;
+}
+
+header nav {
+    padding-bottom: em;
+}
+
+time {
+    color: gray;
+    font-size: 30px;
+}
+
+img {
+  width: 100%;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li:not(:last-child) {
+  margin-right: 1rem;
+}
+
+#menu a {
+  color: lightgray;
+  text-decoration: underline;
+  font-weight: lighter;
+  font-size: 16px;
+  letter-spacing: 0.1em;
+}
+
+a {
+    color: tomato;
+    text-decoration: none;
+}
+
+footer nav ul a {
+    font-weight: lighter;
+    font-size: 14.5px;
+}
+
+footer {
+  margin-top: auto;
+}
+
+footer span {
+  color: lightgray;
+}
+
+article {
+  margin-bottom: 4rem;
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 2rem;
+}
+
+article p {
+    color: gray;
+    line-height: 30px;
+}
+
+article p::first-letter {
+  color: lightgray;
+  font-size: 7em;
+  float: left;
+  margin-right: 0.5rem;
+  font-weight: lighter;
+  padding: 0.2em;
+}
+
+article a {
+  padding: 48vw;
+  font-weight: bold;
+}
+
 
